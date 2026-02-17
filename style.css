@@ -143,3 +143,25 @@ border-radius: 25px !important;
 
 
 
+/*nitzo tots minisite*/
+@media only screen and (max-width: 650px){
+    html:has(meta[content*="Nitzo-Tots"]) .chabad_header img {
+    display: block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url("https://chabadofwesthills.com/media/images/1356/jybn13563373.jpeg") no-repeat;
+    width: 310px !important; /* Width of new image */
+    height: 250px  !important; /* Height of new image */
+    padding-left: 310px !important; /* Equal to width of new image */
+    background-size:100% 100% !important;
+  }
+}
+
+/*rounding*/
+html:has(meta[content*="Nitzo-Tots"]) .bannerCta button, html:has(meta[content*="Nitzo-Tots"]) .read-more_link a{
+    border-radius: 25px !important;
+
+}
+html:has(meta[content*="Nitzo-Tots"]) .sPromo-flex img , html:has(meta[content*="Nitzo-Tots"]) .sPromo-flex img, html:has(meta[content*="Nitzo-Tots"]) .indexsectionImg img, html:has(meta[content*="Nitzo-Tots"]) .sPromo-flex{
+border-radius:50% !important;
+}
