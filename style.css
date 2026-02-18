@@ -210,21 +210,21 @@ html:has(meta[content*="Nitzo-Tots"]) .indexsectionImg img{
 }
 
 /*footer*/
-html:has(meta[content*="Nitzo-Tots"]) .g960.footer{
+html:has(meta[content*="Nitzo-Tots"]) .g960.footer, html:has(meta[content*="Hebrew-School-Registration"]) .g960.footer{
     background-image: 
     url("https://nossonsshul.com/media/images/1358/zuTF13583919.png");
     background-size:100% 100%;
     color:#fff !important;
 }
 @media only screen and (max-width: 650px){
-    html:has(meta[content*="Nitzo-Tots"]) .g960.footer{
+    html:has(meta[content*="Nitzo-Tots"]) .g960.footer, html:has(meta[content*="Hebrew-School-Registration"]) .g960.footer{
         background-image: 
         url("https://nossonsshul.com/media/images/1358/Dbyp13583921.png");
         background-size:100% 100%;
     }
 }
 
-html:has(meta[content*="Nitzo-Tots"]) .footer-title, html:has(meta[content*="Nitzo-Tots"]) .footer-adress, html:has(meta[content*="Nitzo-Tots"]) .footer-city-state, html:has(meta[content*="Nitzo-Tots"]) .footer-street{
+html:has(meta[content*="Nitzo-Tots"]) .footer-title, html:has(meta[content*="Nitzo-Tots"]) .footer-adress, html:has(meta[content*="Nitzo-Tots"]) .footer-city-state, html:has(meta[content*="Nitzo-Tots"]) .footer-street,html:has(meta[content*="Hebrew-School-Registration"]) .footer-title, html:has(meta[content*="Hebrew-School-Registration"]) .footer-adress, html:has(meta[content*="Hebrew-School-Registration"]) .footer-city-state, html:has(meta[content*="Hebrew-School-Registration"]) .footer-street{
     display:none !important;
 }
 /*child page*/
