@@ -166,7 +166,7 @@ html:has(meta[content*="Nitzo-Tots"]) .sPromo-flex img , html:has(meta[content*=
 border-radius:50% !important;
 }
 /*remove possibility to return to main site*/
-html:has(meta[content*="Nitzo-Tots"]) .cco_templateless_template a{
+html:has(meta[content*="Nitzo-Tots"]) .cco_templateless_template a, html:has(meta[content*="Hebrew-School-Registration"]) .cco_templateless_template a{
     background-color: #fee4bf !important;
     color:#fee4bf !important;
 }
@@ -176,7 +176,7 @@ html:has(meta[content*="Nitzo-Tots"]) .sPromo-wrap .caption{
     background: none !important;
 }
 /*remove navigation bar*/
-html:has(meta[content*="Nitzo-Tots"]) div#chabad_head .chabad_navigator_bar {
+html:has(meta[content*="Nitzo-Tots"]) div#chabad_head .chabad_navigator_bar, html:has(meta[content*="Hebrew-School-Registration"]) div#chabad_head .chabad_navigator_bar{
     display:none !important;
 }
 /*register button*/
