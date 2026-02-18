@@ -220,6 +220,6 @@ html:has(meta[content*="Nitzo-Tots"]) .g960.footer{
     }
 }
 
-html:has(meta[content*="Nitzo-Tots"]) .footer-title, html:has(meta[content*="Nitzo-Tots"]) .footer-adress, html:has(meta[content*="Nitzo-Tots"]) .footer-city-state{
+html:has(meta[content*="Nitzo-Tots"]) .footer-title, html:has(meta[content*="Nitzo-Tots"]) .footer-adress, html:has(meta[content*="Nitzo-Tots"]) .footer-city-state, html:has(meta[content*="Nitzo-Tots"]) .footer-street{
     display:none !important;
 }
