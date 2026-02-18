@@ -199,10 +199,14 @@ html:has(meta[content*="Nitzo-Tots"]) .indexsection .title{
     font-size:60pt !important;
     font-weight: bold !important;
     color:#5bf4e5 !important;
+}
+@media only screen and (min-width: 651px){
+html:has(meta[content*="Nitzo-Tots"]) .indexsection .title{    
     padding-top:50px !important;
 }
 html:has(meta[content*="Nitzo-Tots"]) .indexsectionImg img{
     margin-top:-100px !important;
+}
 }
 
 /*footer*/
