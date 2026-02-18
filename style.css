@@ -166,9 +166,9 @@ html:has(meta[content*="Nitzo-Tots"]) .sPromo-flex img , html:has(meta[content*=
 border-radius:50% !important;
 }
 /*remove possibility to return to main site*/
-html:has(meta[content*="Nitzo-Tots"]) .cco_templateless_template, html:has(meta[content*="Nitzo-Tots"]) .cco_templateless_template a{
-    display:none !important;
-    line-height:0px !important;
+html:has(meta[content*="Nitzo-Tots"]) .cco_templateless_template a{
+    background-color: #fee4bf !important;
+    color:#fee4bf !important;
 }
 
 /*remove background at the bottom of caption*/
@@ -195,7 +195,7 @@ html:has(meta[content*="Nitzo-Tots"]) .sPromo-flex{
 html:has(meta[content*="Nitzo-Tots"]) .indexsection .title{
     font-size:60pt !important;
     font-weight: bold !important;
-    color:#95edff !important;
+    color:#5bf4e5 !important;
     padding-top:50px !important;
 }
 html:has(meta[content*="Nitzo-Tots"]) .indexsectionImg img{
