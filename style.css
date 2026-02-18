@@ -165,3 +165,22 @@ html:has(meta[content*="Nitzo-Tots"]) .bannerCta button, html:has(meta[content*=
 html:has(meta[content*="Nitzo-Tots"]) .sPromo-flex img , html:has(meta[content*="Nitzo-Tots"]) .sPromo-flex img, html:has(meta[content*="Nitzo-Tots"]) .indexsectionImg img, html:has(meta[content*="Nitzo-Tots"]) .sPromo-flex{
 border-radius:50% !important;
 }
+/*remove possibility to return to main site*/
+html:has(meta[content*="Nitzo-Tots"]) .cco_templateless_template, html:has(meta[content*="Nitzo-Tots"]) .cco_templateless_template a{
+    display:none !important;
+}
+
+/*remove background at the bottom of caption*/
+html:has(meta[content*="Nitzo-Tots"]) .sPromo-wrap .caption{
+    background: none !important;
+}
+html:has(meta[content*="Nitzo-Tots"]) .read-more_link a{
+    color:#95edff !important;
+    border: 2px solid #95edff !important;
+}
+html:has(meta[content*="Nitzo-Tots"]) .read-more_link a:hover{
+    background:#5bf4e5 !important; 
+}
+html:has(meta[content*="Nitzo-Tots"]) .sPromo-flex{
+    min-height: 300px;
+}
