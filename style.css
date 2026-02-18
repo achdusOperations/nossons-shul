@@ -227,3 +227,10 @@ html:has(meta[content*="Nitzo-Tots"]) .g960.footer{
 html:has(meta[content*="Nitzo-Tots"]) .footer-title, html:has(meta[content*="Nitzo-Tots"]) .footer-adress, html:has(meta[content*="Nitzo-Tots"]) .footer-city-state, html:has(meta[content*="Nitzo-Tots"]) .footer-street{
     display:none !important;
 }
+/*child page*/
+html:has(meta[content*="Hebrew-School-Registration"]) .article-header__title{
+    color:#5bf4e5 !important;
+    font-weight: bold !important;
+    font-size:40px !important;
+    
+}
