@@ -175,7 +175,10 @@ html:has(meta[content*="Nitzo-Tots"]) .cco_templateless_template a{
 html:has(meta[content*="Nitzo-Tots"]) .sPromo-wrap .caption{
     background: none !important;
 }
-
+/*remove navigation bar*/
+html:has(meta[content*="Nitzo-Tots"]) div#chabad_head .chabad_navigator_bar {
+    display:none !important;
+}
 /*register button*/
 html:has(meta[content*="Nitzo-Tots"]) .read-more_link a{
     color:black !important;
