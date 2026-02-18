@@ -183,5 +183,5 @@ html:has(meta[content*="Nitzo-Tots"]) .read-more_link a:hover{
     color:#fff !important;
 }
 html:has(meta[content*="Nitzo-Tots"]) .sPromo-flex{
-    min-height: 300px;
+    min-height: 280px;
 }
