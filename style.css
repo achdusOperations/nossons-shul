@@ -194,6 +194,8 @@ html:has(meta[content*="Nitzo-Tots"]) .sPromo-flex{
 /*contact section*/
 html:has(meta[content*="Nitzo-Tots"]) .indexsection .title{
     font-size:60pt !important;
+    font-weight: bold !important;
+    color:#95edff !important;
 }
 
 /*footer*/
@@ -208,4 +210,8 @@ html:has(meta[content*="Nitzo-Tots"]) .g960.footer{
         url("https://nossonsshul.com/media/images/1358/Dbyp13583921.png");
         background-size:100% 100%;
     }
+}
+
+html:has(meta[content*="Nitzo-Tots"]) .footer-title, html:has(meta[content*="Nitzo-Tots"]) .footer-adress{
+    display:none !important;
 }
