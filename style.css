@@ -149,7 +149,7 @@ border-radius: 25px !important;
     display: block;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    background: url("https://chabadofwesthills.com/media/images/1356/jybn13563373.jpeg") no-repeat;
+    background: url("https://nossonsshul.com/media/images/1358/BInP13583920.png") no-repeat;
     width: 310px !important; /* Width of new image */
     height: 250px  !important; /* Height of new image */
     padding-left: 310px !important; /* Equal to width of new image */
@@ -184,4 +184,18 @@ html:has(meta[content*="Nitzo-Tots"]) .read-more_link a:hover{
 }
 html:has(meta[content*="Nitzo-Tots"]) .sPromo-flex{
     min-height: 280px;
+}
+
+/*footer*/
+html:has(meta[content*="Nitzo-Tots"]) .g960.footer{
+    background-image: 
+    url("https://nossonsshul.com/media/images/1358/zuTF13583919.png");
+    background-size:100% 100%;
+}
+@media only screen and (max-width: 650px){
+    html:has(meta[content*="Nitzo-Tots"]) .g960.footer{
+        background-image: 
+        url("https://nossonsshul.com/media/images/1358/Dbyp13583921.png");
+        background-size:100% 100%;
+    }
 }
