@@ -184,18 +184,21 @@ html:has(meta[content*="Nitzo-Tots"]) .read-more_link a{
 }
 html:has(meta[content*="Nitzo-Tots"]) .read-more_link a:hover{
     background:#5bf4e5 !important; 
-    color:#fff !important;
 }
 /*rounding promo*/
 html:has(meta[content*="Nitzo-Tots"]) .sPromo-flex{
     min-height: 280px;
 }
 
-/*contact section*/
+/*contact section title and to align image with text*/
 html:has(meta[content*="Nitzo-Tots"]) .indexsection .title{
     font-size:60pt !important;
     font-weight: bold !important;
     color:#95edff !important;
+    padding-top:50px !important;
+}
+html:has(meta[content*="Nitzo-Tots"]) .indexsectionImg img{
+    margin-top:-100px !important;
 }
 
 /*footer*/
