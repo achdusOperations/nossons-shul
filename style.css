@@ -234,3 +234,8 @@ html:has(meta[content*="Hebrew-School-Registration"]) .article-header__title{
     font-size:40px !important;
     
 }
+html:has(meta[content*="Hebrew-School-Registration"]) .co_body .content .form-all .form-submit-button{
+border-radius: 25px !important;
+background-color: #5bf4e5 !important;
+font-size: 2.2em !important;
+}
