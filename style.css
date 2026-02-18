@@ -168,6 +168,7 @@ border-radius:50% !important;
 /*remove possibility to return to main site*/
 html:has(meta[content*="Nitzo-Tots"]) .cco_templateless_template, html:has(meta[content*="Nitzo-Tots"]) .cco_templateless_template a{
     display:none !important;
+    line-height:0px !important;
 }
 
 /*remove background at the bottom of caption*/
