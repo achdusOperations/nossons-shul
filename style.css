@@ -225,7 +225,7 @@ html:has(meta[content*="Nitzo-Tots"]) .g960.footer, html:has(meta[content*="Hebr
 }
 
 html:has(meta[content*="Nitzo-Tots"]) .footer-title, html:has(meta[content*="Nitzo-Tots"]) .footer-adress, html:has(meta[content*="Nitzo-Tots"]) .footer-city-state, html:has(meta[content*="Nitzo-Tots"]) .footer-street,html:has(meta[content*="Hebrew-School-Registration"]) .footer-title, html:has(meta[content*="Hebrew-School-Registration"]) .footer-adress, html:has(meta[content*="Hebrew-School-Registration"]) .footer-city-state, html:has(meta[content*="Hebrew-School-Registration"]) .footer-street{
-    display:none !important;
+    visibility:hidden !important;
 }
 /*child page*/
 html:has(meta[content*="Hebrew-School-Registration"]) .article-header__title{
