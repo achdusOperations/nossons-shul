@@ -210,7 +210,7 @@ html:has(meta[content*="Nitzo-Tots"]) .indexsectionImg img{
 }
 
 /*footer*/
-html:has(meta[content*="Nitzo-Tots"]) .g960.footer, html:has(meta[content*="Hebrew-School-Registration"]) .g960.footer{
+html:has(meta[content*="Nitzo-Tots"]) .g960.footer, html:has(meta[content*="Hebrew-School-Registration"]) .g960.footer, html:has(meta[content*="Nitzo-Tots"]) .g960.footer a, html:has(meta[content*="Hebrew-School-Registration"]) .g960.footer a{
     background-image: 
     url("https://nossonsshul.com/media/images/1358/zuTF13583919.png");
     background-size:100% 100%;
