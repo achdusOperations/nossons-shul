@@ -145,7 +145,7 @@ border-radius: 25px !important;
 
 /*nitzo tots minisite*/
 @media only screen and (max-width: 650px){
-    html:has(meta[content*="Nitzo-Tots"]) .chabad_header img {
+    html:has(meta[content*="Nitzo-Tots"]) .chabad_header img, html:has(meta[content*="Hebrew-School-Registration"]) .chabad_header img{
     display: block;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
