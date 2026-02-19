@@ -151,7 +151,7 @@ border-radius: 25px !important;
     box-sizing: border-box;
     background: url("https://nossonsshul.com/media/images/1358/BInP13583920.png") no-repeat;
     
-    height: 250px  !important; /* Height of new image */
+    height: 100vw  !important; /* Height of new image */
     padding-left: 100vw !important; /* Equal to width of new image */
     background-size:100% 100% !important;
   }
