@@ -165,7 +165,7 @@ display:none !important;
 /*put down in mobile the message aera that go cut off*/
 @media only screen and (max-width: 650px){
 html:has(meta[content*="Nitzo-Tots"]) .body_wrapper.co_body, html:has(meta[content*="Hebrew-School-Registration"]) .body_wrapper.co_body{
-    padding-top:25px !important;
+    padding-top:40px !important;
 }
 
 }
