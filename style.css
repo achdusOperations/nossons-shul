@@ -157,6 +157,11 @@ border-radius: 25px !important;
   }
 }
 
+/*remove bh for mobile as it appeared in wrong place*/
+html:has(meta[content*="Nitzo-Tots"]) .mobile .bh, html:has(meta[content*="Hebrew-School-Registration"]) .mobile .bh {
+display:none !important;
+}
+
 /*rounding*/
 html:has(meta[content*="Nitzo-Tots"]) .bannerCta button{
     border-radius: 25px !important;
