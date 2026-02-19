@@ -247,7 +247,7 @@ background-color: #5bf4e5 !important;
 font-size: 2.2em !important;
 }
 /*header of child page higher*/
-@media only screen and (max-width: 650px){
+@media only screen and (min-width: 651px){
 html:has(meta[content*="Hebrew-School-Registration"]) .cco_templateless_page div#chabad_body_content{
     padding-top:100px !important;
 }
