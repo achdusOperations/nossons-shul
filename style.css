@@ -246,3 +246,10 @@ border-radius: 25px !important;
 background-color: #5bf4e5 !important;
 font-size: 2.2em !important;
 }
+
+html:has(meta[content*="Hebrew-School-Registration"]) .cco_templateless_page div#chabad_body_content{
+    padding-top:100px !important;
+}
+html:has(meta[content*="Hebrew-School-Registration"]) .section_branch .chabad_header img{
+    height:450px !important;
+}
